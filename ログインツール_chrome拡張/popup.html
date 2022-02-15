@@ -1,0 +1,44 @@
+<meta charset="utf-8"/>
+<html lang="ja">
+<head>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+<div id="home">
+    <div id="urlBox">
+        <label for="url">接続先URL</label>
+        <input id="url" type="text" value="">
+    </div>
+    <hr>
+    <div id="listTable">
+        <table id="loginInfoList">
+        </table>
+    </div>
+    <br>
+    <div class="addBtn" id="addBtn">
+        <button id="add">追加</button>
+    </div>
+</div>
+<div id="register" hidden>
+    <label for="label">ラベル</label>
+    <input id="label" type="text" value="">
+    <label for="userId">ユーザコード</label>
+    <input id="userId" type="text" value="">
+    <label for="password">パスワード</label>
+    <input id="password" type="text" value="">
+    <div id="registerBtn">
+        <table>
+            <tr>
+                <td>
+                    <button id="doRegister">登録</button>
+                </td>
+                <td>
+                    <button id="cancel">キャンセル</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
+<script src="inlineScript.js"></script>

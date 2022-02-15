@@ -1,0 +1,61 @@
+body {
+    min-width: 200px;
+}
+table {
+    width: 100%;
+}
+input {
+    width: 100%;
+}
+#listTable td:nth-of-type(1){
+    color: darkblue;
+}
+#listTable td:nth-of-type(2){
+    width: 25px;
+    text-align: center;
+    color: white;
+}
+#listTable td:nth-of-type(2):hover{
+    color: red;
+}
+#listTable td{
+    cursor: pointer;
+}
+#listTable td:hover{
+    background-color: whitesmoke;
+}
+#addBtn button{
+    width: 70px;
+    border: 1px solid #333;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+#addBtn button:hover{
+    background-color: deepskyblue;
+}
+#registerBtn button[id="doRegister"]{
+    width: 70px;
+    border: 1px solid #333;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+#registerBtn button[id="doRegister"]:hover{
+    background-color: deepskyblue;
+}
+#registerBtn button[id="cancel"]{
+    width: 90px;
+    border: 1px solid #333;
+    background-color: white;
+    border-radius: 5px;
+}
+#registerBtn button[id="cancel"]:hover{
+    background-color: whitesmoke;
+}
+#register input{
+    margin-bottom: 10px;
+}
+.addBtn{
+    text-align:center;
+}
