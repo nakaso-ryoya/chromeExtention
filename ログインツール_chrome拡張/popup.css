@@ -1,19 +1,27 @@
 body {
-    min-width: 200px;
+    width: 200px;
 }
 table {
-    width: 100%;
+    width: 200px;
+    table-layout: fixed;
 }
 input {
     width: 100%;
 }
+button {
+    cursor: pointer;
+}
 #listTable td:nth-of-type(1){
     color: darkblue;
+    width: 175px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
 }
 #listTable td:nth-of-type(2){
     width: 25px;
     text-align: center;
-    color: white;
+    color: lightcoral;
 }
 #listTable td:nth-of-type(2):hover{
     color: red;
